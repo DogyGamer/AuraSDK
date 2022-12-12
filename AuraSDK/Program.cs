@@ -23,6 +23,8 @@ namespace AuraSDK
             {
                 auraArgbDevices[i].Strip.FillAll(new RGBColor(0x0000FF));
                 auraArgbDevices[i].Show();
+
+                Console.WriteLine();
             }
 
             Thread.Sleep(5000);
